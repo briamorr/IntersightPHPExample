@@ -5,7 +5,6 @@ $hostName = 'intersight.com';
 $url = '/api/v1/compute/RackUnits?$top=1&$select=Serial,Name';
 
 $apiTime = 'date: ' . gmdate(DATE_RFC1123);
-$apiTime = 'date: Fri, 09 Sep 2022 05:03:10 +0000';
 
 $payload = '';
 $payloadDigest = openssl_digest ($payload , "sha256", true);
